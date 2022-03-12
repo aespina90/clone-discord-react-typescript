@@ -8,14 +8,14 @@ export const Container = styled.div`
   justify-content: space-between;
   background-color: var(--primary);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px 0px;
-  z-index: 2;
+
 `;
 
 export const Messages = styled.div`
   padding: 20px 0;
   display: flex;
   flex-direction: column;
-  max-height: calc(100vh -46px -68px);
+  max-height: calc(100vh - 46px - 68px);
   overflow-y: scroll;
 
   ::-webkit-scrollbar {
